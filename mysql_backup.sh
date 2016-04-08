@@ -36,5 +36,3 @@ rm $FILE_DUMP
 
 # Remove old files.
 find $BACKUP_DIR -type f -mtime "+${DUMP_LIVE_DAYS}" -exec rm -frv  {} \;
-
-#echo $FILENAME
